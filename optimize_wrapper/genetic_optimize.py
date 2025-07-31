@@ -2,7 +2,7 @@ import copy
 from io import StringIO
 from typing import List, Dict, Any, Mapping
 
-from src.optimization_image import create_detailed_image_result
+from optimize_wrapper.optimization_image import create_detailed_image_result
 import pygad
 import numpy as np
 import viktor as vkt
@@ -11,7 +11,7 @@ import viktor as vkt
 # HELPER FUNCTIONS
 from munch import munchify
 
-from src.process_parametrization import create_gene_space_from_parametrization, decode_solution_to_parameters
+from optimize_wrapper.process_parametrization import create_gene_space_from_parametrization, decode_solution_to_parameters
 
 
 def set_value_by_path(
