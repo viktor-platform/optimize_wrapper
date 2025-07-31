@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "optimize_wrapper"
 version = "0.1.0"
@@ -9,3 +13,6 @@ dependencies = [
     "pygad>=3.5.0",
     "viktor>=14.24.0",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]

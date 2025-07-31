@@ -1,1 +1,2 @@
 viktor
+git+https://github.com/viktor-platform/optimize_wrapper.git

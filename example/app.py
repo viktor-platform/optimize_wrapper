@@ -1,6 +1,6 @@
 import viktor as vkt
 
-from src import genetic_optimize
+from optimize_wrapper import genetic_optimize
 
 
 class Parametrization(vkt.Parametrization):
