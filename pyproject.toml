@@ -1,5 +1,5 @@
 [project]
-name = "optimize-wrapper"
+name = "optimize_wrapper"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
