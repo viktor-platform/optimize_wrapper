@@ -27,7 +27,7 @@ class Controller(vkt.Controller):
 
     @genetic_optimize(
         optimized_parameters=Parametrization,
-        path="areas_section",
+        path="",
         sol_per_pop=250,
         num_generations=100,
         amount_of_solutions=100
