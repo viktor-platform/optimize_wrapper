@@ -4,8 +4,7 @@ setup(
     name="optimize_wrapper",
     version="0.1.0",
     description="A wrapper for genetic optimization with Viktor",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    packages=find_packages(),
     install_requires=[
         "munch>=4.0.0",
         "pygad>=3.5.0",

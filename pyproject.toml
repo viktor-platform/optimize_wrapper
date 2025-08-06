@@ -1,13 +1,15 @@
 [project]
 name = "optimize_wrapper"
 version = "0.1.0"
-description = "Add your description here"
+description = "A VIKTOR wrapper, to wrap your optimization function, to make it the fitness function for a Genetic Algorithm"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 dependencies = [
     "munch>=4.0.0",
     "pygad>=3.5.0",
     "viktor>=14.24.0",
+    "matplotlib",
+    "numpy",
 ]
 
 [tool.setuptools]
