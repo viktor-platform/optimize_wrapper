@@ -19,15 +19,16 @@ from optimize_wrapper import genetic_optimize
 
 
 class Parametrization(vkt.Parametrization):
-    x = vkt.NumberField("X")
-    y = vkt.NumberField("Y")
+    section = vkt.Section("Section")
+    section.x = vkt.NumberField("X")
+    section.y = vkt.NumberField("Y")
 
 class Controller(vkt.Controller):
     parametrization = Parametrization
 
     @genetic_optimize(
         optimized_parameters=Parametrization,
-        path="",
+        path="section",
         sol_per_pop=250,
         num_generations=100,
         amount_of_solutions=100
