@@ -11,7 +11,7 @@ import viktor as vkt
 # HELPER FUNCTIONS
 from munch import munchify
 
-from optimize_wrapper.process_parametrization import create_gene_space_from_parametrization, decode_solution_to_parameters
+from optimize_wrapper.process_parametrization import create_gene_space_from_parametrization, decode_solution_to_parameters, build_nested_dict
 
 
 def set_value_by_path(
